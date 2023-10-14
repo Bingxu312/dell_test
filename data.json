@@ -1,0 +1,22 @@
+[
+    {
+        "code": "0508AMP0300",
+        "message": "The system board <name> current is less than the lower warning threshold."
+    },
+    {
+        "code": "0500AMP0301",
+        "message": "The system board <name> current is less than the lower critical threshold."
+    },
+    {
+        "code": "0508AMP0302",
+        "message": "The system board <name> current is greater than the upper warning threshold."
+    },
+    {
+        "code": "0500AMP0303",
+        "message": "The system board <name> current is greater than the upper critical threshold."
+    },
+    {
+        "code": "0500AMP0304",
+        "message": "The system board <name> current is outside of range."
+    }
+]
