@@ -56,7 +56,7 @@ def auto_send_event():
             # interval one second between each sending to prevent errors caused by simultaneous sending
             time.sleep(1)
 
-        if not idrac_event_code or not apex_event_code:
+        if not (idrac_event_code or apex_event_code):
             break
         time.sleep(frequency)
 
