@@ -1,11 +1,14 @@
 {
     "sending_event_rules": {
-        "frequency": 5,
-        "events_number": 3
+        "frequency": 3,
+        "idrac_events_number": 1,
+        "apex_events_number": 1
     },
-    "events_info": {
+    "events_info": [
+      {
             "node_id": "V763121",
             "component_id": "V763121",
             "host_name": "shvanacortes.local"
         }
+    ]
 }
